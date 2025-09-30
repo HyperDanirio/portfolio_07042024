@@ -43,7 +43,7 @@ const ContactInfo = () => {
           </div>
           <div className='flex justify-start items-center gap-8'>
             <img className='w-10 lg:w-12 h-full' src="/Phone.svg"></img>
-            <h2 className=' text-lg lg:text-2xl text-divider2'>+976 8843 2340</h2>
+            <h2 className=' text-lg lg:text-2xl text-divider2'>+81 080'6913-1759</h2>
           </div>
         </div>
       </div>

@@ -8,17 +8,17 @@ const Pay = () => {
   }
   const PaymentInfo = [
     {
-      title: 'Software Development',
-      price: '399',
+      title: 'Language Teaching',
+      price: '10',
       content: [
-        'Mobile App Development',
-        'Windows App Development',
-        'Java Development'
+        'English',
+        'Japanese',
+        'Mongolian'
       ]
     },
     {
       title: 'Website Development',
-      price: '199',
+      price: '99',
       content: [
         'UI/UX Design',
         'Dynamic Website',
@@ -26,12 +26,13 @@ const Pay = () => {
       ]
     },
     {
-      title: 'Art Commission',
-      price: '99',
+      title: '  Graphic Design',
+      price: '50',
       content: [
         'UI/UX Design',
         '2D Illustration',
-        '3D Sculting'
+        '3D Sculting',
+        'Video Editing'
       ]
     }
   ]
@@ -40,7 +41,7 @@ const Pay = () => {
     <div className='w-full h-auto flex justify-center items-start flex-col'>
     <div className='w-full h-8 flex justify-center items-start flex-col md:px-2 px-4 lg:px-12 gap-2'>
     <div className='w-full h-0.5 bg-divider1 rounded-sm'></div>
-    <h5 className='text-divider2 text-sm font-medium'>Pricing</h5>
+    <h5 className='text-divider2 text-sm font-medium'>Products</h5>
     </div>
     <div className="w-full h-110 md:h-[100rem] lg:h-[50rem] flex justify-center items-center flex-col lg:flex-row gap-16 px-6 lg:px-16 py-12">
       {PaymentInfo.map((item, index) => (
